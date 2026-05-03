@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/AishwaryaGirish12/sample-app.git'
+                checkout scm
             }
         }
 
